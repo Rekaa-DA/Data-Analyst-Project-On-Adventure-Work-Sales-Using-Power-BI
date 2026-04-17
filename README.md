@@ -12,7 +12,7 @@ This project analyzes the Adventure Works dataset to evaluate business performan
 - Dataset: Adventure Works Retail Database  
 - Timeline: 2024–2026  
 - Tables: Sales, Customers, Products, Territories  
-- Size: 10,000+ rows  
+- Size: 18,000+ rows  
 
 ## 🧹 Data Cleaning (Power Query)
 - Standardized categorical values (Gender, Marital Status, Home Ownership)  
@@ -26,7 +26,7 @@ This project analyzes the Adventure Works dataset to evaluate business performan
 - Designed Star Schema Data Model  
 
 ## 📊 Dashboard Features
-- Slicers: Occupation, Education  
+- Slicers: Occupation 
 - Visuals:
   - Bar Chart → Product Models  
   - Pie Chart → Education  
