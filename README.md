@@ -124,27 +124,14 @@ Customers with a **moderate number of children show higher spending**, indicatin
 
 ## 📌 Final Conclusion
 
-This analysis clearly shows that Adventure Works operates with a **premium-driven business model**, where revenue is concentrated around high-value products and a specific customer segment.
-
-The **Road-150 model**, along with strong demand for **Black and Red colors**, forms the core of sales performance.
-
-From a customer perspective, **Married Professionals with Bachelor’s degrees** contribute the majority of revenue, indicating that income stability and education significantly influence purchasing behavior.
-
-The presence of high-value transactions (up to **$17.89K**) further confirms that the business relies on **quality over quantity**, focusing on fewer but higher-value orders.
-
-However, the business also faces **concentration risk**, as it depends heavily on:
-
-* A single product category
-* Limited color preferences
-* A narrow customer segment
-
-To sustain and improve growth, the company should:
-
-* Expand product variety beyond Road models
-* Introduce new color options strategically
-* Target additional customer segments while retaining high-value customers
-
-With these improvements, the company is well-positioned to surpass **$43M in revenue**, ensuring long-term scalability and stability.
+* The analysis shows that total sales reached **$39M from 18K orders**, indicating strong overall business performance.
+* The **Road-150 model leads** with an average sale of **$10.9K**, making it the top revenue-driving product.
+* Professionals (**$11.18M**) and Skilled Manual workers (**$10.67M**) together contribute the majority of total revenue.
+* Married customers generate approximately **$21M**, highlighting their significant impact on sales.
+* Customers with a Bachelor’s degree contribute around **$11.83M**, showing a strong link between education and spending.
+* High-value transactions reaching up to **$17.89K** confirm a **premium-focused sales strategy**.
+* Most products fall below **$3K**, indicating a **skewed revenue distribution dominated by top-tier products**.
+* With an **11% growth rate**, the business is projected to exceed **$43M**, emphasizing strong future growth potential.
 
 ## 🛠️ Tools & Technologies
 
