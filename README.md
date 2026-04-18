@@ -1,143 +1,120 @@
-# 📊 Adventure Works Sales Analysis (2024–2026)
+# 🚴‍♂️ Adventure Works Sales Analysis 
 
-## 🔍 Project Overview
+📊 Dashboard Preview
 
-This project presents a comprehensive end-to-end analysis of the Adventure Works dataset, focusing on identifying key revenue drivers, customer purchasing behavior, and product performance.
+<img width="1327" height="736" alt="Dashboard Screenshot " src="https://github.com/user-attachments/assets/df77f4af-db8b-495c-9c2a-0bb0ddcd1767" />
 
-The analysis is designed to move beyond basic reporting and provide **actionable business insights** by combining data cleaning, transformation, modeling, and visualization techniques.
 
-The primary goal is to understand **which products, customer segments, and attributes contribute the most to revenue**, and how the business can improve its current **11% growth rate**.
+## 📌 Project Summary
 
-## 🎯 Business Problem
+📊 End-to-end **Power BI Data Analytics Project** focused on analyzing Adventure Works sales data to uncover revenue drivers, customer behavior, and product performance.
+🎯 The project delivers **data-driven insights** using Power Query, DAX, and interactive dashboards to improve the current **11% growth rate**.
 
-* Why are certain product models (like Road bikes) generating significantly higher revenue?
-* Which customer segments contribute the most to total sales?
-* How can the company optimize marketing and inventory strategies?
+---
+
+## 🚀 Tech Stack
+
+<p>
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black"/>
+  <img src="https://img.shields.io/badge/DAX-025E8C"/>
+  <img src="https://img.shields.io/badge/Excel-217346?logo=microsoft-excel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Power%20Query-742774"/>
+</p>
+
+---
+
+## ⚡ Tech Hacks (Smart Work)
+
+* Used **Star Schema modeling** to improve performance and simplify relationships
+* Created a **Calendar Table using DAX** for accurate time intelligence
+* Replaced missing values (Product Color → *Black*) to avoid data gaps in visuals
+* Used **calculated columns (Age, Monthly Salary)** to enrich analysis
+* Optimized dashboard using **slicers (Education, Occupation)** for dynamic filtering
+* Reduced data noise using **Trim & Clean functions** in Power Query
+* Designed visuals to highlight **top contributors first (Top-down analysis approach)**
+
+---
 
 ## 🎯 Objectives
 
-* Identify top-performing product models and revenue contributors
-* Analyze customer demographics (Marital Status, Education, Occupation)
-* Track key KPIs such as Sales, Orders, and Growth Rate
-* Understand product preferences based on attributes like Color
-* Provide business recommendations for revenue growth
-  
-## 📁 Data Sources
+1. Identify top-performing product models and revenue drivers
+2. Analyze customer demographics (Marital Status, Education, Occupation)
+3. Evaluate sales distribution across product categories
+4. Track KPIs such as Total Sales, Orders, and Growth Rate
+5. Understand product preferences based on Color and Model
+6. Analyze high-value transactions and customer segments
+7. Provide data-driven recommendations for business growth
 
-* Adventure Works Retail Dataset
-* Tables Used: Sales, Customers, Products, Territories
-* Time Period: 2024 – 2026
-* Data Volume: 18,000+ records
+---
 
-## 🧹 Data Cleaning (Power Query)
+## 📊 Key Metrics
 
-To ensure high-quality data, the following preprocessing steps were performed:
+| Metric          | Value       |
+| --------------- | ----------- |
+| 💰 Total Sales  | **$39M**    |
+| 📦 Total Orders | **18K**     |
+| 💵 Max Sale     | **$17.89K** |
+| 📈 Growth Rate  | **11%**     |
 
-* Standardized categorical values
+---
 
-  * Gender → M/F → Male/Female
-  * Marital Status → M/S → Married/Single
-  * Home Ownership → Y/N → Yes/No
+## 📊 Dashboard Insights
 
-* Handled missing values
+1. 🚴 Road-150 ($10.9K) leads → premium-driven trend
+2. 🎨 Black & Red dominate sales
+3. 🎓 Bachelor’s → **$11.83M**
+4. 💍 Married → **~$21M**
+5. 💼 Professionals ($11.18M) & Skilled Manual ($10.67M)
+6. 📉 Most products < **$3K** → skewed distribution
+7. 👨‍👩‍👧 Moderate family size → higher spending
 
-  * Product Color null values replaced with **"Black"**
-
-* Data type corrections
-
-  * Price & Cost → Currency
-  * Product Size → Text
-  * Date columns → Proper Date format
-
-* Applied **Trim & Clean** functions
-
-  * Removed unwanted spaces and special characters
-
-## 🔄 Data Transformation
-
-* Created **Age column** from Birth Date
-* Derived **Monthly Salary** from Annual Income
-* Built a **Calendar Table** using DAX (Year, Month, Quarter)
-* Implemented **Star Schema Data Model**
-
-  * Sales → Fact Table
-  * Customers, Products, Territories → Dimension Tables
-
-## 📊 Dashboard & Visualization Details
-
-### KPI Cards
-
-* Total Sales → **$39M**
-* Total Orders → **18K**
-* Max Sale Value → **$17.89K**
-* Growth Rate → **11%**
-
-### 📊 Bar Chart
-
-**The chart shows a premium-driven trend, where Road-150 ($10.9K) leads while most products remain below $3K, indicating skewed revenue distribution.**
-
-### 📊 Funnel Chart
-
-**Black and Red colors contribute the majority of sales**, while other colors show a steep decline, highlighting strong customer preference concentration.
-
-### 📊 Pie Chart
-
-Customers with a **Bachelor’s degree contribute ~$11.83M**, making them the largest and most valuable customer segment.
-
-### 📊 Column Chart
-
-**Married customers generate ~$21M**, contributing more than 50% of total revenue, indicating higher purchasing power.
-
-### 📊 Treemap
-
-The occupation chart shows Professionals ($11.18M) and Skilled Manual ($10.67M) as top contributors, while Clerical, Management, and Manual segments contribute comparatively less, indicating higher revenue from skilled and professional workers
-
-### 📊 KPI Cards
-
-With **18K orders generating $39M**, the average order value is approximately **$2.1K**, supported by high-value transactions up to **$17.89K**.
-
-### 📊Line Chart
-
-With a steady **11% growth rate**, projected revenue is expected to exceed **$43M**, assuming current trends continue.
-
-### 📊 Scatter Plot
-
-Customers with a **moderate number of children show higher spending**, indicating an optimal target group rather than a linear relationship.
-
+---
 
 ## 🧠 Key Insights
 
-* Revenue is heavily driven by **premium products**, especially Road-150
-* Customer preference is highly concentrated in **Black and Red colors**
-* **Married Professionals** form the most profitable customer segment
-* Education level directly impacts purchasing power
-* Business follows a **high-value, low-volume sales model**
+1. Revenue concentrated in premium models
+2. Strong dependency on top products
+3. Limited color preference drives sales
+4. Married Professionals = top segment
+5. Education impacts spending behavior
+6. High-value, low-volume strategy
+7. Long-tail revenue distribution
 
+---
 
 ## 📈 Analytics Approach
 
-* **Descriptive:** Achieved $39M sales with 18K orders
-* **Diagnostic:** Revenue driven by Professionals & Married customers
-* **Predictive:** Expected ~$43M revenue based on 11% growth
-* **Prescriptive:** Focus on high-income segments and premium products
+* Descriptive → $39M sales
+* Diagnostic → Driven by Professionals & Married
+* Predictive → $43M forecast
+* Prescriptive → Focus on high-income segments
 
+---
 
 ## 📌 Final Conclusion
 
-* The analysis shows that total sales reached **$39M from 18K orders**, indicating strong overall business performance.
-* The **Road-150 model leads** with an average sale of **$10.9K**, making it the top revenue-driving product.
-* Professionals (**$11.18M**) and Skilled Manual workers (**$10.67M**) together contribute the majority of total revenue.
-* Married customers generate approximately **$21M**, highlighting their significant impact on sales.
-* Customers with a Bachelor’s degree contribute around **$11.83M**, showing a strong link between education and spending.
-* High-value transactions reaching up to **$17.89K** confirm a **premium-focused sales strategy**.
-* Most products fall below **$3K**, indicating a **skewed revenue distribution dominated by top-tier products**.
-* With an **11% growth rate**, the business is projected to exceed **$43M**, emphasizing strong future growth potential.
+* $39M sales from 18K orders
+* Road-150 → $10.9K avg
+* Professionals & Skilled Manual dominate
+* Married → ~$21M
+* Bachelor’s → ~$11.83M
+* Max sale → $17.89K
+* Most products < $3K
+* Growth → 11% → $43M+
 
-## 🛠️ Tools & Technologies
+---
+
+## 🛠️ Tools Used
 
 * Power BI
 * Power Query
 * DAX
 * Excel
 
+---
 
+## 👤 Author
+
+**Rekaa**
+📊 Aspiring Data Analyst
+🚀 Open to opportunities
