@@ -1,18 +1,18 @@
-# 🚴‍♂️ Adventure Works Sales Analysis 
+🚴‍♂️ Adventure Works Sales Analysis
 
 📊 Dashboard Preview
 
 <img width="1327" height="736" alt="Dashboard Screenshot " src="https://github.com/user-attachments/assets/df77f4af-db8b-495c-9c2a-0bb0ddcd1767" />
 
 
-## 📌 Project Summary
+📌 Project Summary
 
 📊 End-to-end **Power BI Data Analytics Project** focused on analyzing Adventure Works sales data to uncover revenue drivers, customer behavior, and product performance.
 🎯 The project delivers **data-driven insights** using Power Query, DAX, and interactive dashboards to improve the current **11% growth rate**.
 
 ---
 
-## 🚀 Tech Stack
+🚀 Tech Stack
 
 <p>
   <img src="https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black"/>
@@ -23,7 +23,7 @@
 
 ---
 
-## ⚡ Tech Hacks (Smart Work)
+⚡ Tech Hacks (Smart Work)
 
 * Used **Star Schema modeling** to improve performance and simplify relationships
 * Created a **Calendar Table using DAX** for accurate time intelligence
@@ -35,7 +35,7 @@
 
 ---
 
-## 🎯 Objectives
+🎯 Objectives
 
 1. Identify top-performing product models and revenue drivers
 2. Analyze customer demographics (Marital Status, Education, Occupation)
@@ -47,7 +47,7 @@
 
 ---
 
-## 📊 Key Metrics
+📊 Key Metrics
 
 | Metric          | Value       |
 | --------------- | ----------- |
@@ -58,7 +58,7 @@
 
 ---
 
-## 📊 Dashboard Insights
+📊 Dashboard Insights
 
 1. 🚴 Road-150 ($10.9K) leads → premium-driven trend
 2. 🎨 Black & Red dominate sales
@@ -69,8 +69,7 @@
 7. 👨‍👩‍👧 Moderate family size → higher spending
 
 ---
-
-## 🧠 Key Insights
+🧠 Key Insights
 
 1. Revenue concentrated in premium models
 2. Strong dependency on top products
@@ -82,7 +81,7 @@
 
 ---
 
-## 📈 Analytics Approach
+📈 Analytics Approach
 
 * Descriptive → $39M sales
 * Diagnostic → Driven by Professionals & Married
@@ -91,7 +90,7 @@
 
 ---
 
-## 📌 Final Conclusion
+📌 Final Conclusion
 
 * $39M sales from 18K orders
 * Road-150 → $10.9K avg
@@ -104,7 +103,7 @@
 
 ---
 
-## 🛠️ Tools Used
+🛠️ Tools Used
 
 * Power BI
 * Power Query
@@ -113,7 +112,7 @@
 
 ---
 
-## 👤 Author
+👤 Author
 
 **Rekaa**
 📊 Aspiring Data Analyst
