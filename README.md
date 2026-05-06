@@ -7,8 +7,8 @@
 
 📌 Project Summary
 
-📊 End-to-end **Power BI Data Analytics Project** focused on analyzing Adventure Works sales data to uncover revenue drivers, customer behavior, and product performance.
-🎯 The project delivers **data-driven insights** using Power Query, DAX, and interactive dashboards to improve the current **11% growth rate**.
+📊 End-to-end Power BI Data Analytics Project focused on analyzing Adventure Works sales data to uncover revenue drivers, customer behavior, and product performance.
+🎯 The project delivers data-driven insights using Power Query, DAX, and interactive dashboards to improve the current 11% growth rate..
 
 ---
 
@@ -25,13 +25,13 @@
 
 ⚡ Tech Hacks (Smart Work)
 
-* Used **Star Schema modeling** to improve performance and simplify relationships
-* Created a **Calendar Table using DAX** for accurate time intelligence
-* Replaced missing values (Product Color → *Black*) to avoid data gaps in visuals
-* Used **calculated columns (Age, Monthly Salary)** to enrich analysis
-* Optimized dashboard using **slicers (Education, Occupation)** for dynamic filtering
-* Reduced data noise using **Trim & Clean functions** in Power Query
-* Designed visuals to highlight **top contributors first (Top-down analysis approach)**
+* Used Star Schema modeling to improve performance and simplify relationships
+* Created a Calendar Table using DAX for accurate time intelligence
+* Replaced missing values (Product Color → Black) to avoid data gaps
+* Used calculated columns (Age, Monthly Salary) to enrich analysis
+* Optimized dashboard using slicers (Education, Occupation)
+* Reduced data noise using Trim & Clean functions in Power Query
+* Designed visuals using top-down analysis approach
 
 ---
 
@@ -60,12 +60,12 @@
 
 📊 Dashboard Insights
 
-1. 🚴 Road-150 ($10.9K) leads → premium-driven trend
-2. 🎨 Black & Red dominate sales
-3. 🎓 Bachelor’s → **$11.83M**
-4. 💍 Married → **~$21M**
-5. 💼 Professionals ($11.18M) & Skilled Manual ($10.67M)
-6. 📉 Most products < **$3K** → skewed distribution
+1. 🚴 Road-150 ($10.9K) leads TO premium-driven trend.
+2. 🎨 Black & Red dominate sales.
+3. 🎓 Bachelor’s contributes $11.83M.
+4. 💍 Married customers generate $21M.
+5. 💼 Professionals ($11.18M) and Skilled Manual ($10.67M) dominate.
+6. 📉 Most products are below $3K
 7. 👨‍👩‍👧 Moderate family size → higher spending
 
 ---
